@@ -1,1 +1,40 @@
+# OrangeHRM Test Case Document
 
+This repository contains functional test cases for the OrangeHRM demo web application:  
+👉 [https://opensource-demo.orangehrmlive.com]
+
+The test cases are documented in an Excel file and cover several key authentication features.
+
+📄 File Included
+
+- `Test_Case_OrangeHRM.xlsx`  
+  Contains test cases for the following components:
+  - Login (positive and negative scenarios)
+  - Forgot Password
+  - Logout
+
+# Test Case Columns
+Each test case includes the following columns:
+- TestCaseID
+- Platform
+- Component
+- Kind of Test (Positive/Negative)
+- Priority (High/Medium/Low)
+- Description / Test Scenario
+- Test Steps
+- Test Data
+- Expected Result
+- Actual Result
+- Status (Pass/Fail)
+- Notes
+
+✅ How to Use
+1. Open the Excel file.
+2. Review each test scenario and steps.
+3. Update the "Actual Result" and "Status" after executing the tests.
+4. This document can be used for manual testing or as a reference for automation.
+
+📌 Notes
+
+- This is a test case document for learning purposes.
+- The scenarios are based on public OrangeHRM demo system.
